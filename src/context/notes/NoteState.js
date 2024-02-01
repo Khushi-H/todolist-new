@@ -3,8 +3,8 @@ import NoteContext from "./noteContext";
 
 const NoteState = (props) => {
   // const host = "https://to-do-hdxq.vercel.app/";
-  const host = "https://todolist-updated.onrender.com";
-  // const host = "http://localhost:5000";
+  // const host = "https://todolist-updated.onrender.com";
+  const host = "http://localhost:5000";
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
 
